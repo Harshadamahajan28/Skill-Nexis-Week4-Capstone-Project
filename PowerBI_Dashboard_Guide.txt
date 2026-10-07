@@ -1,0 +1,17 @@
+POWER BI DASHBOARD
+Data source: cleaned_week4_dataset.csv
+
+Cards:
+Total Sales = SUM(total_price)
+Unique Orders = DISTINCTCOUNT(order_id)
+Average Order Value = DIVIDE([Total Sales],[Unique Orders])
+
+Visuals:
+- Sales by Category: Column chart
+- Sales by Year: Line chart
+- Sales by Region: Bar chart
+- Top 10 Customers: Bar chart
+- Slicers: Year, Category, Region
+
+Dashboard title: Sales Performance Dashboard
+Import the CSV in Power BI Desktop, create the measures, add the visuals and save the .pbix file.
